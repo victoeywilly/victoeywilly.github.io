@@ -3,7 +3,7 @@
 
 title: Theos-Environdocs
 url: "https://victoeywilly.github.io"
-baseurl: ""
+baseurl: "https://victoeywilly.github.io"
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -16,9 +16,9 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Frisco Template
+  name: Theos-Environdocs
   links:
-    - https://github.com/CloudCannon/frisco-jekyll-template
+    - https://victoeywilly.github.io
 
 # -----
 # Build
