@@ -1,7 +1,7 @@
 ---
-name: Anna Thompson
-position: Marketing
+name: Theo Kim
+position: Environment Analysts
 image_path: images/profile.jpg
-twitter_username: CloudCannon
-blurb: Anna likes long walks on the beach and buffet breakfast.
+twitter_username: Theo Tae Ho Kim
+blurb: Life was longer than I thought
 ---
