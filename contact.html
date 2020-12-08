@@ -1,13 +1,10 @@
 ---
 title: Contact
-description: Send a message if you want more information about me!
+description: Send us a message to find out more!
 map:
-  latitude: 37.58383167103614 
-  longitude: 127.05875564029672
-  
-
-
-: "163 Seoulsiripdae-ro, Dongdaemun-gu, Seoul, Republic of Korea (02504)"
+  latitude: -45.8787605
+  longitude: 170.5027976
+  address: "1 George Street, Dunedin, New Zealand"
   zoom: 13
 image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 ---
@@ -30,8 +27,7 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 			<label for="name">Name</label>
 			<input type="text" name="name" id="name" placeholder="Enter your name...">
 
-			<label for="
-				    ">Email Address</label>
+			<label for="email">Email Address</label>
 			<input type="email" name="email" id="email" placeholder="Enter your email..." required>
 
 			<label for="message">Message</label>
@@ -42,10 +38,10 @@ image: https://source.unsplash.com/WNAO036c6FM/2000x1322?a=.png
 
 		<div class="contact-details">
 			<h3>Address</h3>
-			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", ", <br>" }}</a></address>
+			<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
 
 			<h3>Email</h3>
-			<p class="editable"><a href="mailto:victoeywilly@gmail.com">victoeywilly@gmail.com</a></p>
+			<p class="editable"><a href="mailto:support@example.com">support@example.com</a></p>
 		</div>
 	</div>
 </section>
